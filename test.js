@@ -6,5 +6,5 @@ if (true) {
   process.exit(0);
 } else {
   console.error('Tests failed');
-  process.exit(2);
+  process.exit(1);
 }
